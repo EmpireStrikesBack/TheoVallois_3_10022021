@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+body {
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, h4, li, p {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header img {
+  width: 100%;
+}
+
+.reserver {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.fonctionnement h2 {
+  width: 90%;
+  margin: auto;
+}
+
+.fonctionnement .fonctionnement__icone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 14px 1px #d3d3d3;
+          box-shadow: 0px 0px 14px 1px #d3d3d3;
+}
+
+.fonctionnement .fonctionnement__icone i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.fonctionnement .fonctionnement__icone p {
+  margin-left: 10px;
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+}
+
+.restaurants header {
+  width: 90%;
+  margin: auto;
+}
+
+.restaurants figure {
+  background-color: white;
+  padding-top: 2px;
+  border-radius: 20px 20px 20px 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.restaurants figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 170px;
+  border-radius: 20px 20px 0 0;
+}
+
+.restaurants figure figcaption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+}
+
+.restaurants figure h3, .restaurants figure h4 {
+  font-size: 1em;
+}
+
+.restaurants figure h3 {
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.restaurants figure h4 {
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+
+footer h2 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 100;
+  margin-left: 45px;
+}
+
+.banner-1 {
+  background-image: url(../../../images/restaurants/restaurant-1.jpg);
+}
+
+.banner-2 {
+  background-image: url(../../../images/restaurants/restaurant-2.jpg);
+}
+
+.banner-3 {
+  background-image: url(../../../images/restaurants/restaurant-3.jpg);
+}
+
+.banner-4 {
+  background-image: url(../../../images/restaurants/restaurant-4.jpg);
+}
+
+.banner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 214px;
+}
+
+.menu {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0 0;
+  padding-top: 20px;
+  margin-top: -30px;
+  position: relative;
+}
+
+.menu header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+}
+
+.menu .menu__entrees, .menu .menu__plats, .menu .menu__desserts {
+  width: 90%;
+  margin: auto;
+}
+
+.menu .entree, .menu .plat, .menu .dessert {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 14px 1px #d3d3d3;
+          box-shadow: 0px 0px 14px 1px #d3d3d3;
+}
+
+.menu .entree h4, .menu .entree p, .menu .plat h4, .menu .plat p, .menu .dessert h4, .menu .dessert p {
+  margin-left: 15px;
+}
+
+.menu .entree h4, .menu .plat h4, .menu .dessert h4 {
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.menu .entree p, .menu .plat p, .menu .dessert p {
+  margin-top: 0;
+}
+
+.menu .entree .entree__complement, .menu .entree .plat__complement, .menu .entree .dessert__complement, .menu .plat .entree__complement, .menu .plat .plat__complement, .menu .plat .dessert__complement, .menu .dessert .entree__complement, .menu .dessert .plat__complement, .menu .dessert .dessert__complement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
